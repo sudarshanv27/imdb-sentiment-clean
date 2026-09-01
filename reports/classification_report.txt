@@ -1,0 +1,27 @@
+IMDB SENTIMENT ANALYSIS
+FINAL TEST CLASSIFICATION REPORT
+============================================================
+
+Model: LogisticRegression
+
+Accuracy : 0.8943
+Precision: 0.8906
+Recall   : 0.8990
+F1 Score : 0.8948
+
+Classification Report
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+    Negative       0.90      0.89      0.89     12500
+    Positive       0.89      0.90      0.89     12500
+
+    accuracy                           0.89     25000
+   macro avg       0.89      0.89      0.89     25000
+weighted avg       0.89      0.89      0.89     25000
+
+
+Confusion Matrix
+------------------------------------------------------------
+[[11119  1381]
+ [ 1262 11238]]

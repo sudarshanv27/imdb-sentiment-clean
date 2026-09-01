@@ -1,0 +1,10 @@
+IMDB SENTIMENT ANALYSIS
+FINAL MODEL ACCURACY REPORT
+============================================================
+
+Model: LogisticRegression
+
+Accuracy : 0.8943 (89.43%)
+Precision: 0.8906 (89.06%)
+Recall   : 0.8990 (89.90%)
+F1 Score : 0.8948 (89.48%)

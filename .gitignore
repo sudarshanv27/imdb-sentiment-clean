@@ -1,0 +1,41 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw IMDb dataset
+data/raw/
+
+# Processed datasets
+data/processed/
+
+# Generated TF-IDF feature matrices
+data/features/
+
+# Backup dataset
+aclImdb_backup/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
