@@ -1,0 +1,30 @@
+services:
+
+  # ============================================================
+  # FASTAPI BACKEND
+  # ============================================================
+
+  - type: web
+    name: imdb-sentiment-api
+    runtime: python
+    plan: free
+
+    buildCommand: pip install -r requirements.txt
+
+    startCommand: uvicorn src.api:app --host 0.0.0.0 --port $PORT
+
+    healthCheckPath: /health
+
+
+  # ============================================================
+  # STREAMLIT FRONTEND
+  # ============================================================
+
+  - type: web
+    name: imdb-sentiment-app
+    runtime: python
+    plan: free
+
+    buildCommand: pip install -r requirements.txt
+
+    startCommand: streamlit run app.py --server.address 0.0.0.0 --server.port $PORT
