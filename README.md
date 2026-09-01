@@ -11,21 +11,20 @@ The project includes data preprocessing, TF-IDF feature extraction, multiple mac
 ### 🌐 Streamlit Web Application
 
 👉 **Live App:**  
-https://YOUR-STREAMLIT-URL.onrender.com
+https://imdb-sentiment-app-eltv.onrender.com/
 
 Use the web application to enter any movie review and receive a sentiment prediction with confidence and probability scores.
 
 ### 🔌 FastAPI REST API
 
 👉 **API:**  
-https://YOUR-API-URL.onrender.com
+https://imdb-sentiment-api-8eok.onrender.com
 
 ### 📚 Swagger API Documentation
 
 👉 **API Docs:**  
-https://YOUR-API-URL.onrender.com/docs
+https://imdb-sentiment-api-8eok.onrender.com/docs
 
-> Replace the URLs above with the actual URLs provided by Render.
 
 ---
 
